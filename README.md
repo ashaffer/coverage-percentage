@@ -7,8 +7,8 @@ Tiny utility for turning a coverage report in various formats into a numerical p
 
 ```json
 "scripts": {
-  "test": "istanbul test ./node_modules/mocha/bin/_mocha --report lcov -- -R spec",
-  "badge": "./node_modules/coverage-badge/bin/coverage-badge `./bin/coverage-percentage ./coverage/lcov.info --lcov` badge.png"
+  "test": "istanbul test _mocha --report lcov -- -R spec",
+  "badge": "coverage-badge `./bin/coverage-percentage ./coverage/lcov.info --lcov` badge.png"
 }
 ```
 

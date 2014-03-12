@@ -3,9 +3,12 @@
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "coverage-percentage": "./bin/coverage-percentage"
+  },
   "scripts": {
-    "test": "istanbul test ./node_modules/mocha/bin/_mocha --report lcov -- -R spec",
-    "badge": "./node_modules/coverage-badge/bin/coverage-badge `./bin/coverage-percentage ./coverage/lcov.info --lcov` badge.png",
+    "test": "istanbul test _mocha --report lcov -- -R spec",
+    "badge": "coverage-badge `./bin/coverage-percentage ./coverage/lcov.info --lcov` badge.png",
     "start": "./bin/index"
   },
   "repository": {
@@ -25,6 +28,7 @@
   "devDependencies": {
     "mocha": "~1.17.1",
     "chai": "~1.9.0",
-    "coverage-badge": "0.0.5"
+    "coverage-badge": "0.0.5",
+    "istanbul": "~0.2.6"
   }
 }
