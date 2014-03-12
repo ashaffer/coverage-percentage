@@ -22,8 +22,7 @@
   },
   "homepage": "https://github.com/ashaffer/coverage-percentage",
   "dependencies": {
-    "lcov-parse": "0.0.6",
-    "coverage-badge": "git://github.com/ashaffer/node-coverage-badge#patch-1"
+    "lcov-parse": "0.0.6"
   },
   "devDependencies": {
     "mocha": "~1.17.1",
