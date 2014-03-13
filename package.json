@@ -24,9 +24,9 @@
     "lcov-parse": "0.0.6"
   },
   "keywords": [
-    "code coverage"
-    "coverage badge"
-    "coverage"
+    "code coverage",
+    "coverage badge",
+    "coverage",
     "ci"
   ],
   "devDependencies": {
