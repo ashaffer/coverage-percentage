@@ -1,7 +1,7 @@
 {
   "name": "coverage-percentage",
   "version": "0.0.1",
-  "description": "",
+  "description": "Simple command line utility for turning code coverage reports into a number",
   "main": "index.js",
   "bin": {
     "coverage-percentage": "./bin/coverage-percentage"
